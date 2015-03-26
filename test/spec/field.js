@@ -15,7 +15,6 @@ describe('Percent:', function() {
       expect(res).to.be.an('object');
       // same objects
       expect(res).to.equal(src);
-      console.log(res);
       var t = 0, value;
       var keys = Object.keys(res);
       keys.map(function(key) {
