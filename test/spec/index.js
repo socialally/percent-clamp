@@ -1,3 +1,4 @@
 module.exports = {
-  percent: require('./percent')
+  percent: require('./percent'),
+  error: require('./error'),
 }
